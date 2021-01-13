@@ -16,15 +16,15 @@
 
 # How do I get Inkscape?
  1. [Inkscape website](https://inkscape.org/release/)
- 2. Windows
- 3. 64 Bit
- 4. Compressed archive in 7z format. (easiest method, but if you want to play with inkscape you can also install it too)
+ 2. ➡️Windows
+ 3. ➡️64 Bit
+ 4. ➡️Compressed archive in 7z format. (easiest method, but if you want to play with inkscape you can also install it too)
  5. Use [7-zip](https://www.7-zip.org/download.html) to unpack the file. Go to your downloads, right click the inkscape file, select 7-zip; Extract to ...
 
 # How do I get Imagemagick?
  1. [Imagemagick download page](https://imagemagick.org/script/download.php)
- 2. Scroll down to the bottom
- 3. There will be a file similar to [ImageMagick-7.0.10-57-portable-Q16-x64.zip](https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.10-57-portable-Q16-x64.zip) and download it
+ 2. ➡️Scroll down to the bottom
+ 3. ➡️There will be a file similar to [ImageMagick-7.0.10-57-portable-Q16-x64.zip](https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.10-57-portable-Q16-x64.zip) and download it
  4. Extract it somewhere
 
 # How do I get the script?
@@ -32,6 +32,6 @@
  2. If you have a github account, give it a star so I know someone used it. _If not, no worries either._
  3. Place the **batch-convert-svg.ps1** file where you save all of your whiteboard exports. 
  4. Open the file with a text editor like notepad and update the location of where you saved Inkscape and Imagemagick.
- 5. Start -> Powershell and type **Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned**
-    press Y to accept
- 6. Now you can right click the batch-convert-svg.ps1 file and select Run with Powershell
+ 5. Start ➡️ open Powershell and type **Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned**
+ 6. press Y to accept then close the window.
+ 7. Now you can right click the batch-convert-svg.ps1 file and select Run with Powershell
