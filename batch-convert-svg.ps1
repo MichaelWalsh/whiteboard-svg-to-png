@@ -1,6 +1,9 @@
 # Michael Walsh
 # 2021/01/12
 # batch-convert-svg.ps1
+# Version 1.1
+# https://github.com/MichaelWalsh/whiteboard-svg-to-png
+# LGPL 2.1; keep author attribution and link back to repo in your modifications
 
 # This script can convert the high resolution SVG output files of Microsoft Whiteboard into high quality PNG files
 # It uses the portable version of inkscape and imagemagick
@@ -15,7 +18,7 @@
 # remember they must end with inkscape.com and convert.exe
 
 $inkscape_com_path="C:\Users\yourusername\Downloads\inkscape-1.0.1-x64\inkscape\bin\inkscape.com"
-$imagemagick_path="c:\Users\yourusername\Downloads\ImageMagick-7.0.10-57-portable-Q16-x64\convert.exe"
+$imagemagick_path="c:\Users\yourusername\Downloads\ImageMagick-7.0.10-59-portable-Q16-x64\convert.exe"
 
 # the DPI argument makes the file resolution much bigger, and allows for content to be clear and easy to read when zoomed in 
 # reduce this number if the files are too big
