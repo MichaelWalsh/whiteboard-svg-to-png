@@ -23,8 +23,8 @@
 
 # How do I get Imagemagick?
  1. [Imagemagick download page](https://imagemagick.org/script/download.php)
- 2. ➡️Scroll down to the bottom
- 3. ➡️There will be a file similar to [ImageMagick-7.0.10-57-portable-Q16-x64.zip](https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.10-57-portable-Q16-x64.zip) and download it
+ 2. ➡️Scroll down to the bottom and look for downloads ending in **portable-Q16-x64.zip**
+ 3. ➡️There will be a file similar to [ImageMagick-7.0.10-59-portable-Q16-x64.zip](https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.10-59-portable-Q16-x64.zip) and download it
  4. Extract it somewhere
 
 # How do I get the script?
@@ -35,3 +35,11 @@
  5. Start ➡️ open Powershell and type **Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned**
  6. press Y to accept then close the window.
  7. Now you can right click the batch-convert-svg.ps1 file and select Run with Powershell
+
+
+# Powershell ExecutionPolicy / I can't run the file
+![Set execution policy](execution-policy.jpg)
+1. Copy this command ➡️ **Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned**
+2. Paste it into the PowerShell window by right clicking in it.
+3. Press enter, and then press y to accept
+You only need to do this once. 
